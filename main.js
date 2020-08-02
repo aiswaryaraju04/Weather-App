@@ -7,7 +7,7 @@ const api = {
   searchbox.addEventListener('keypress', setQuery);
   
   function setQuery(evt) {
-    if (evt.keyCode == 13) {
+    if (evt.keyCode == 26) {
       getResults(searchbox.value);
     }
   }
